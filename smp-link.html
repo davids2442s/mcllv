@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LVsmp Premium Server</title>
+<link rel="icon" type="image/png" href="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5d/Grass_Block_JE4.png">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
@@ -15,8 +16,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         min-height: 100vh;
+        padding: 30px;
     }
 
     h1 {
@@ -28,7 +30,7 @@
 
     h2 {
         font-size: 1.5em;
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
         color: #ffce00;
     }
 
@@ -56,19 +58,34 @@
         padding: 20px 40px;
         border-radius: 15px;
         text-align: center;
-        max-width: 600px;
+        max-width: 800px;
         box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        margin-bottom: 2em;
     }
 
     .info-box p {
         margin: 10px 0;
-        font-size: 1.2em;
+        font-size: 1.1em;
+    }
+
+    ul {
+        text-align: left;
+        max-width: 500px;
+        margin: auto;
+        padding: 0;
+    }
+
+    ul li {
+        list-style: none;
+        padding: 5px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
     }
 
     .footer {
         margin-top: 2em;
         font-size: 0.9em;
         color: #aaa;
+        text-align: center;
     }
 
     .sparkle {
@@ -88,23 +105,59 @@
     <h2>LVsmp1 – The Ultimate Private Survival Experience</h2>
 
     <!-- Bedrock Button -->
-    <button class="button" onclick="window.location.href='minecraft://?addExternalServer=&4&lL&f&lV&asmp &4&l&kW|LVsmp1.aternos.me:50995'">
+    <button class="button" onclick="window.location.href='minecraft://?addExternalServer=LVsmp%20Ultra%20Pro%20Max|LVsmp1.aternos.me:50995'">
         🚀 Join Server (Bedrock)
     </button>
 
     <!-- Java Info Box -->
     <div class="info-box">
-        <h2>For Java Edition Players</h2>
-        <p>Server IP: <strong>LVsmp1.aternos.me</strong></p>
-        <p>Port: <strong>50995</strong></p>
-        <p>Server Name: <strong>LVsmp & Ultra Pro Max</strong></p>
-        <p>Type: Survival SMP – Private & Fun</p>
-        <p>Max Players: 10–20</p>
-        <p>Recommended: Join with friends and enjoy Silk Spawners, Jobs, Shops, and more!</p>
+        <h2>Java Edition Players</h2>
+        <p><strong>IP:</strong> LVsmp1.aternos.me</p>
+        <p><strong>Port:</strong> 50995</p>
+        <p><strong>Name:</strong> LV SMP Ultra Pro Max</p>
+        <p><strong>Mode:</strong> Survival SMP (Private & Fun)</p>
+        <p><strong>Players:</strong> Max 10</p>
+    </div>
+
+    <!-- Plugins List -->
+    <div class="info-box">
+        <h2>Installed Plugins (27)</h2>
+        <ul>
+            <li>AuctionHouse</li>
+            <li>BedrockPlayerManager</li>
+            <li>ChestShop</li>
+            <li>Clearlag</li>
+            <li>EconomyShopGUI</li>
+            <li>Floodgate</li>
+            <li>Geyser-Spigot</li>
+            <li>GeyserSkinManager</li>
+            <li>Jobs</li>
+            <li>MobHunting</li>
+            <li>MobStacker</li>
+            <li>QuickShop</li>
+            <li>Silk Spawners</li>
+            <li>Spark</li>
+            <li>Vault</li>
+            <li>ViaBackwards</li>
+            <li>ViaRewind</li>
+            <li>ViaVersion</li>
+            <li>ViaVersionStatus</li>
+        </ul>
+    </div>
+
+    <!-- Features -->
+    <div class="info-box">
+        <h2>Server Features</h2>
+        <p>✅ Bedrock + Java crossplay</p>
+        <p>✅ Silk Spawners & Shops</p>
+        <p>✅ Jobs & Economy</p>
+        <p>✅ Mob Hunting & Auctions</p>
+        <p>✅ Lag-free gameplay with Clearlag & Spark</p>
+        <p>✅ 24/7 Hosted on Aternos</p>
     </div>
 
     <div class="footer">
-        Designed with ❤️ for the best SMP experience. All rights reserved.
+        Designed with ❤️ for LV SMP | © 2025 All rights reserved.
     </div>
 
 </body>
